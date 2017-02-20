@@ -58,7 +58,7 @@ namespace uwppicturestrorage
             CloudStorageAccount storageAccount;
             try
             {
-                storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=uwppicturestorage;AccountKey=Y/8VleWvtpzygCo5SInUe8ykkBSA9m+y56HpZ0Uoy9XO+RsKflnqNbsRl21r0uC7qQhg2ly8YHIyNHfCd695rg==");
+                storageAccount = CloudStorageAccount.Parse("primary connection string");
             }
             catch (FormatException)
             {
